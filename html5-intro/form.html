@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block
+            margine-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="form.html">form</a></li>
+            <li><a href="table.html">table</a></li>
+            <li><a href="semantic.html">semantic</a></li>
+            <li><a href="audio-video">media</a></li>
+        </ul>
+    </nav>
+    <form>
+    <h2>welcom to jamaler ma pitha ghor</h2>
+    <label for="name">your name</label>
+    <input id="name" type="text" placeholder="your name">
+    <h2>welcom to jamaler ma pitha ghor</h2>
+    <label for="email">your eamil
+        <input id="email" type="email" placeholder="your eamil">
+    </label>
+    <label for="phone">your phone
+        <input id="phone" type="number" placeholder="your phone number">
+
+    </label>
+    <fieldset>
+        <legend>pick one pitha</legend>
+        <label for="chitoy">
+            <input type="radio" name="pitha" id="chitoy">
+            chitoy<br>
+        </label>
+        <label for="vapa">
+            <input type="radio" name="pitha" id="vapa">
+            vapa
+        </label><br>
+        <label for="coconat">
+            <input type="radio" name="pitha" id="coconat">
+            coconat
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>one or more tow vortha</legend>
+        <label for="sorisha">
+            <input type="checkbox" name="vortha" id="sorisha">
+            sorisha
+        </label>
+        <label for="sutkhi">
+            <input type="checkbox" name="vortha" id="sutkhi">sutkhi
+        </label>
+        <label for="dhonia">
+            <input type="checkbox" name="vortha" id="dhonia">dhonia
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>special instruction</legend>
+        <textarea name="" id="" cols="160" rows="3"></textarea>
+    </fieldset>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

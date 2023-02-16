@@ -1,0 +1,35 @@
+.header{
+    height: 200px;
+    background-image: url(../images/developer/dd.jpg);
+    background-size: cover;
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-blend-mode: multiply;
+}
+h3{
+    color: red;
+    text-decoration: underline wavy green;
+}
+span{
+    border: 5px solid purple;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+}
+p{
+    color: blue;
+}
+.page-title{
+    color: green;
+    width: 1000;
+}
+a{
+    text-decoration: none;
+}
+.blog{
+    background-color:peru;
+    box-shadow: 5px 5px 5px 5px green;
+}
