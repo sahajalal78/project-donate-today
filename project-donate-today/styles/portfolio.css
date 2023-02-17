@@ -42,12 +42,13 @@
     font-size: 35px;
     font-weight: 1500px;
     color: black;
+    font-weight: bold;
 }
 .section-description{
     font-size: 18px;
     font-weight: 700px;
     color: rgb(59, 53, 53);
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 .donate-button{
@@ -83,7 +84,9 @@
 
 .donate-plan{
     text-align: center;
-
+}
+.donate-plan-description{
+    margin: 30px 350px;
 }
 .donate-plan-container{
     display: flex;
@@ -91,9 +94,55 @@
     text-align: left;
     margin: 50px 150px;
 }
-.donate-plan-info{
-    padding: 70px 50px;
-    background-color: burlywood;
+.donate-plan-food{
+    padding: 60px 40px;
+    background-color: rgb(235, 232, 227);
     border-radius: 5px;
+}
+.donate-plan-shelter{
+    padding: 60px 40px;
+    background-color: rgb(214, 207, 198);
+    border-radius: 5px;
+}
+.donate-plan-education{
+    padding: 60px 40px;
+    background-color: rgb(250, 221, 186);
+    border-radius: 5px;
+}
+.plan-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.plan-description{
+    font-size: 15px;
+}
+
+
+/* Your donation styles */
+
+.your-donation{
+    display: flex;
+    text-align: left;
+    margin: 60px 150px;
+    align-items: center;
+    gap: 0px;
+
+}
+.donation-title{
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;   
+}
+.donation-decription{
     
+
+}
+img{
+    border-radius: 7px;
+    padding: 20px 150px;
+
 }
